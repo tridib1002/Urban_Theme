@@ -1,0 +1,25 @@
+uuid: a3a732dc-0cac-449e-8fcc-212e062e15c7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:752f7c0c-5594-4d01-9106-ac1bf6d8b2eb'
+  module:
+    - block_content
+  theme:
+    - mythme
+id: mythme_webdesign
+theme: mythme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:752f7c0c-5594-4d01-9106-ac1bf6d8b2eb'
+settings:
+  id: 'block_content:752f7c0c-5594-4d01-9106-ac1bf6d8b2eb'
+  label: 'WEB DESIGN'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 200459ea-3f8b-4eb8-aabd-8300d0c46e2d
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - mythme
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: mythme_content
+theme: mythme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

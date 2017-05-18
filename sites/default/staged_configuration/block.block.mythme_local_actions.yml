@@ -1,0 +1,20 @@
+uuid: 314e31d9-6a75-4566-b542-d365db13493f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mythme
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: mythme_local_actions
+theme: mythme
+region: header
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

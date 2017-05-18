@@ -1,0 +1,22 @@
+uuid: 548622a4-5fa1-4253-aa73-4d5a3fb7deb4
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - mythme
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: mythme_powered
+theme: mythme
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

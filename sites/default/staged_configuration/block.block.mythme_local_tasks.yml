@@ -1,0 +1,22 @@
+uuid: ebeb32b0-4b40-439d-83fa-94691eae3349
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mythme
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: mythme_local_tasks
+theme: mythme
+region: header
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

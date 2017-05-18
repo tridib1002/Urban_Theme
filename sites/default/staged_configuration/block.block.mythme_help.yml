@@ -1,0 +1,22 @@
+uuid: f33d0a2b-0ebf-4cae-8cd7-976d56b6a416
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mythme
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: mythme_help
+theme: mythme
+region: help
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

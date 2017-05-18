@@ -1,0 +1,25 @@
+uuid: 8bed9a26-f7de-4044-95b8-db612d711357
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - mythme
+_core:
+  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
+id: mythme_branding
+theme: mythme
+region: navigation
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }
