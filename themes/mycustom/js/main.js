@@ -7,6 +7,3 @@ $(".nav li.expanded").hover(
     }
   );
 })(jQuery); 
-
-
-
