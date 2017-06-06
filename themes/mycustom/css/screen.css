@@ -11,6 +11,14 @@
 .block-views-blockour-work-block-1 ul {
   list-style-type: none; }
 
-/* line 19, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
+.block-views-blockour-work-portfolio-block-1 ul {
+  list-style-type: none; }
+
+/* line 26, ../sass/screen.scss */
+.block-views-blockportfolio-grid-block-1 ul {
+  list-style-type: none; }
+
+/* line 32, ../sass/screen.scss */
 .block-views-blockour-services-block-1 {
   padding-top: 30px; }
