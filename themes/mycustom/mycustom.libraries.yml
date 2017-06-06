@@ -1,10 +1,14 @@
 global-styling:
   css:
     theme:
-      css/style.css: {}
+      css/ie.css: {}
+      css/print.css: {}
+      css/screen.css: {}
 
 global-js:
   js:
+    js/imagesloaded.pkgd.min.js: {}
+    js/isotope.min.js: {}
     js/main.js: {}
   dependencies:
     - core/jquery
