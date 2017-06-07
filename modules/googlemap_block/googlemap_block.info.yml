@@ -1,0 +1,13 @@
+name: GoogleMap Blocks
+type: module
+description: Create Google Maps blocks for website.
+# core: 8.x
+package: Map
+# core: '8.x'
+# datestamp: 1473769024
+
+# Information added by Drupal.org packaging script on 2017-04-03
+version: '8.x-1.0'
+core: '8.x'
+project: 'googlemap_block'
+datestamp: 1491196988

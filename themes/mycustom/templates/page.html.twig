@@ -164,6 +164,7 @@
           <a id="main-content"></a>
           {{ page.content }}
         {% endblock %}
+
       </section>
 
       {# Sidebar Second #}
@@ -174,9 +175,19 @@
           </aside>
         {% endblock %}
       {% endif %}
+
     </div>
+
+      {# Content Below #}
+      {% if page.content_below %}
+        {% block content_below %}
+          {{ page.content_below }}
+        {% endblock %}
+      {% endif %}
+      
   </div>
 {% endblock %}
+
 
 {% if page.footer %}
   {% block footer %}
