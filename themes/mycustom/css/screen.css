@@ -26,3 +26,16 @@
 /* line 36, ../sass/screen.scss */
 .view-id-our_work {
   position: relative; }
+
+/* line 40, ../sass/screen.scss */
+.navbar-default {
+  background-color: white;
+  border-color: white; }
+  /* line 43, ../sass/screen.scss */
+  .navbar-default .sf-depth-1 {
+    background-color: white; }
+
+/* line 48, ../sass/screen.scss */
+.navbar-collapse, .navbar-default {
+  padding-right: 0;
+  padding-left: 0; }

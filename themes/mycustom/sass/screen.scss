@@ -36,3 +36,18 @@
 .view-id-our_work {
   position: relative;
 }
+
+.navbar-default{
+  background-color: white;
+  border-color: white;
+  .sf-depth-1{
+    background-color: white;
+  } 
+}
+
+.navbar-collapse, .navbar-default{
+
+  padding-right: 0;
+  padding-left: 0;
+
+}
