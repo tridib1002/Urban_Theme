@@ -5,6 +5,51 @@
 
 // @import "compass/reset";
 
+#about_us_footer_client {
+  margin: 0 auto;
+  width: 100%;
+  div {
+    width: 195px;
+    text-align: center;
+  }
+}
+
+
+
+
+.has-glyphicons {
+  &.path-frontpage {
+    div.col-sm-12 {
+      display: none;    }
+  }
+
+  div.col-sm-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.region.region-header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    margin-bottom: 20px;   
+}
+
+h1.page-header {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  text-align: center;
+}
+ol.breadcrumb {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
 .views-field-field-product-image {
   padding: 0 10px;
   margin-bottom: 20px;
@@ -42,7 +87,7 @@
   border-color: white;
   .sf-depth-1{
     background-color: white;
-  } 
+  }
 }
 
 .navbar-collapse, .navbar-default{
@@ -50,4 +95,370 @@
   padding-right: 0;
   padding-left: 0;
 
+}
+
+#superfish-main {
+  float: right;
+  padding-top: 7.5px;
+}
+
+.page-header {
+  border-bottom: none;
+}
+
+
+#navbar {
+  margin-top: 47px;
+  margin-bottom: 37px;
+}
+
+
+#block-bannerarea{
+  padding-top: 90px;
+}
+
+.home_banner {
+
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-family: "Montserrat", serif;
+  font-size: 68px;
+  line-height: 78px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.home_banner_gray {
+  color: #8a8a8a;
+}
+
+.highlight_banner {
+  color: #fb334f;
+}
+
+#block-mainnavigation {
+  li.sf-depth-1 {
+    a.sf-depth-1 {
+      color: #222;
+      padding: 10px 18px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      &.is-active {
+        border-bottom: 1px solid #fb334f;
+        }
+      &:hover{
+        color: #fb334f;
+        text-decoration: none;
+        background: white;
+      }
+    }
+    ul {
+      li {
+      background: #2A2A2A;
+      color: #fff;
+      padding-left: 20px;
+      // border: white;
+      }
+      a {
+        color: white;
+        background: #2A2A2A;
+        text-align: left;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  border-top: 0px;
+  background-color: #f6f6f6;
+  margin-top: 0px;
+  padding: 30px;
+  p{
+    text-align: center;
+  }
+}
+
+i.fa.fa {
+  color: #999;
+  min-width: 25px;
+}
+
+hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.navbar-header button {
+}
+
+#navbar-collapse {
+  area-expanded:true;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+#block-mainnavigation {
+  float:left;
+}
+
+.navbar-header {
+  float: none;
+}
+
+#navbar{
+  .region-navigation{
+    display: inline-flex;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .region.region-header {
+      text-align: center;
+      background-color: #f4f4f4;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      font-size: 16px;     
+  }
+
+  h1.page-header {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  text-align: center;
+  } 
+
+  #block-site-logo{
+      margin: 0 auto;
+      width: 50%;
+      text-align: center;
+    div {
+      margin: 0 auto;
+      width: 50%;
+      p {
+        margin: 0 auto;
+        width: 50%;
+      }
+    }
+  }
+  #block-mainnavigation {
+    text-align: center;
+    margin-top: 10px;
+    }
+
+  #superfish-main-toggle{
+    margin: 0 auto;
+    width: 420px;
+    background-color: #0c1923;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    content: "menu";
+  }
+  #navbar{
+    .region-navigation{
+      display:block;
+      width: 100%;
+    }
+    .navbar-header{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
+  #block-bannerarea{
+    padding-top: 90px;
+  }
+
+  .home_banner {
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-family: "Montserrat", serif;
+    font-size: 46px;
+    line-height: 52px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .footer.footer.container{
+    width: auto;
+  }
+  div.row-fixed.row-pd{
+    width: auto;
+  }
+  #block-views-block-our-work-block-1{
+    width: auto;
+  }
+  #block-bannerarea{
+  padding-top: 50px;
+  }
+  #block-mainnavigation {
+  li.sf-depth-1 {
+    a.sf-depth-1 {
+      text-align: left;
+      color: white;
+      padding: 10px 18px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      &.is-active {
+        border-bottom: none;
+      }
+      &:hover{
+        /*color: #fb334f;*/
+        text-decoration: none;
+        background: white;
+      }
+      &.menuparent::after {
+          float: right;
+          font-family: FontAwesome;
+          content: "\f067";
+          color: blue;
+      }
+    }
+    ul {
+      li {
+      background: #2A2A2A;
+      color: #fff;
+      padding-left: 20px;
+      border: white;
+        &.sf-clone-parent {
+          a{
+          color: white;
+          font-size: 20px;
+          }
+        }
+      }
+      a {
+        color: white;
+        background: #2A2A2A;
+        text-align: left;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+    }
+  a.sf-expanded{
+    background-color: #0c1923;
+    text-align: left;
+    text-decoration: none;
+  }
+  }
+  #superfish-main-accordion{
+    text-align: center;
+    li {
+      max-width: 420px;
+      margin: 0 auto;
+      float: none;
+      border: 1px solid #000;
+      a {
+        color: white;
+      }
+      ul.sf-has-clone-parent{
+        float: none;
+        li.sf-clone-parent {
+          a {
+            font-size: 14px;
+            padding-left: 28px;
+          } 
+        }
+      }
+    }
+  }
+  .navbar-default{
+  .sf-depth-1{
+    background-color: #0c1923;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #superfish-main-toggle{
+    /*margin: 0 auto;*/
+    width: 100%;
+    /*padding-left: 50px;
+    padding-right: 50px;*/
+    background-color: #0c1923;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .home_banner {
+
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-family: "Montserrat", serif;
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #block-bannerarea{
+    padding-top: 20px;
+  }
+  #block-mainnavigation {
+  padding-left: 25px;
+  padding-right: 25px;
+  li.sf-depth-1 {
+    a.sf-depth-1 {
+      color: white;
+      padding: 10px 18px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      &.is-active {
+        border-bottom: none;
+        }
+      &:hover{
+        color: #fb334f;
+        text-decoration: none;
+        background: white;
+      }
+    }
+    ul {
+      li {
+      background: #2A2A2A;
+      color: #fff;
+      padding-left: 20px;
+      border: white;
+      }
+      a {
+        color: white;
+        background: #2A2A2A;
+        text-align: left;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  a.sf-expanded{
+  background-color: #0c1923;
+  text-align: left;
+  text-decoration: none;
+  }
+  }
+  #superfish-main-accordion{
+  float: none;
+  li {
+    float: right;
+    border: 1px solid #000;
+    }
+  }
+  .navbar-default{
+  .sf-depth-1{
+    background-color: #0c1923;
+    }
+  }
 }

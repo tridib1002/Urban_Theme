@@ -3,39 +3,419 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 8, ../sass/screen.scss */
+#about_us_footer_client {
+  margin: 0 auto;
+  width: 100%; }
+  /* line 11, ../sass/screen.scss */
+  #about_us_footer_client div {
+    width: 195px;
+    text-align: center; }
+
+/* line 22, ../sass/screen.scss */
+.has-glyphicons.path-frontpage div.col-sm-12 {
+  display: none; }
+/* line 26, ../sass/screen.scss */
+.has-glyphicons div.col-sm-12 {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+/* line 32, ../sass/screen.scss */
+.region.region-header {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 16px;
+  margin-bottom: 20px; }
+
+/* line 41, ../sass/screen.scss */
+h1.page-header {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  text-align: center; }
+
+/* line 48, ../sass/screen.scss */
+ol.breadcrumb {
+  padding: 0px;
+  margin-bottom: 0px; }
+
+/* line 53, ../sass/screen.scss */
 .views-field-field-product-image {
   padding: 0 10px;
   margin-bottom: 20px; }
 
-/* line 14, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .block-views-blockour-work-block-1 ul {
   list-style-type: none; }
 
-/* line 20, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .block-views-blockour-work-portfolio-block-1 ul {
   list-style-type: none; }
 
-/* line 26, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 .block-views-blockportfolio-grid-block-1 ul {
   list-style-type: none; }
 
-/* line 32, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .block-views-blockour-services-block-1 {
   padding-top: 30px; }
 
-/* line 36, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .view-id-our_work {
   position: relative; }
 
-/* line 40, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .navbar-default {
   background-color: white;
   border-color: white; }
-  /* line 43, ../sass/screen.scss */
+  /* line 88, ../sass/screen.scss */
   .navbar-default .sf-depth-1 {
     background-color: white; }
 
-/* line 48, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .navbar-collapse, .navbar-default {
   padding-right: 0;
   padding-left: 0; }
+
+/* line 100, ../sass/screen.scss */
+#superfish-main {
+  float: right;
+  padding-top: 7.5px; }
+
+/* line 105, ../sass/screen.scss */
+.page-header {
+  border-bottom: none; }
+
+/* line 110, ../sass/screen.scss */
+#navbar {
+  margin-top: 47px;
+  margin-bottom: 37px; }
+
+/* line 116, ../sass/screen.scss */
+#block-bannerarea {
+  padding-top: 90px; }
+
+/* line 120, ../sass/screen.scss */
+.home_banner {
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-family: "Montserrat", serif;
+  font-size: 68px;
+  line-height: 78px;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+/* line 131, ../sass/screen.scss */
+.home_banner_gray {
+  color: #8a8a8a; }
+
+/* line 135, ../sass/screen.scss */
+.highlight_banner {
+  color: #fb334f; }
+
+/* line 141, ../sass/screen.scss */
+#block-mainnavigation li.sf-depth-1 a.sf-depth-1 {
+  color: #222;
+  padding: 10px 18px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; }
+  /* line 147, ../sass/screen.scss */
+  #block-mainnavigation li.sf-depth-1 a.sf-depth-1.is-active {
+    border-bottom: 1px solid #fb334f; }
+  /* line 150, ../sass/screen.scss */
+  #block-mainnavigation li.sf-depth-1 a.sf-depth-1:hover {
+    color: #fb334f;
+    text-decoration: none;
+    background: white; }
+/* line 157, ../sass/screen.scss */
+#block-mainnavigation li.sf-depth-1 ul li {
+  background: #2A2A2A;
+  color: #fff;
+  padding-left: 20px; }
+/* line 163, ../sass/screen.scss */
+#block-mainnavigation li.sf-depth-1 ul a {
+  color: white;
+  background: #2A2A2A;
+  text-align: left; }
+  /* line 167, ../sass/screen.scss */
+  #block-mainnavigation li.sf-depth-1 ul a:hover {
+    text-decoration: none; }
+
+/* line 175, ../sass/screen.scss */
+.footer {
+  width: 100%;
+  border-top: 0px;
+  background-color: #f6f6f6;
+  margin-top: 0px;
+  padding: 30px; }
+  /* line 181, ../sass/screen.scss */
+  .footer p {
+    text-align: center; }
+
+/* line 186, ../sass/screen.scss */
+i.fa.fa {
+  color: #999;
+  min-width: 25px; }
+
+/* line 191, ../sass/screen.scss */
+hr {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+/* line 199, ../sass/screen.scss */
+#navbar-collapse {
+  area-expanded: true; }
+
+/* line 203, ../sass/screen.scss */
+.navbar .navbar-collapse {
+  text-align: center; }
+
+/* line 207, ../sass/screen.scss */
+#block-mainnavigation {
+  float: left; }
+
+/* line 211, ../sass/screen.scss */
+.navbar-header {
+  float: none; }
+
+/* line 216, ../sass/screen.scss */
+#navbar .region-navigation {
+  display: inline-flex;
+  width: 100%; }
+
+@media only screen and (max-width: 767px) {
+  /* line 223, ../sass/screen.scss */
+  .region.region-header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px; }
+
+  /* line 231, ../sass/screen.scss */
+  h1.page-header {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center; }
+
+  /* line 239, ../sass/screen.scss */
+  #block-site-logo {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center; }
+    /* line 243, ../sass/screen.scss */
+    #block-site-logo div {
+      margin: 0 auto;
+      width: 50%; }
+      /* line 246, ../sass/screen.scss */
+      #block-site-logo div p {
+        margin: 0 auto;
+        width: 50%; }
+
+  /* line 252, ../sass/screen.scss */
+  #block-mainnavigation {
+    text-align: center;
+    margin-top: 10px; }
+
+  /* line 257, ../sass/screen.scss */
+  #superfish-main-toggle {
+    margin: 0 auto;
+    width: 420px;
+    background-color: #0c1923;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    content: "menu"; }
+
+  /* line 269, ../sass/screen.scss */
+  #navbar .region-navigation {
+    display: block;
+    width: 100%; }
+  /* line 273, ../sass/screen.scss */
+  #navbar .navbar-header {
+    margin-left: 0px;
+    margin-right: 0px; }
+
+  /* line 279, ../sass/screen.scss */
+  #block-bannerarea {
+    padding-top: 90px; }
+
+  /* line 283, ../sass/screen.scss */
+  .home_banner {
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-family: "Montserrat", serif;
+    font-size: 46px;
+    line-height: 52px;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+
+  /* line 292, ../sass/screen.scss */
+  .footer.footer.container {
+    width: auto; }
+
+  /* line 295, ../sass/screen.scss */
+  div.row-fixed.row-pd {
+    width: auto; }
+
+  /* line 298, ../sass/screen.scss */
+  #block-views-block-our-work-block-1 {
+    width: auto; }
+
+  /* line 301, ../sass/screen.scss */
+  #block-bannerarea {
+    padding-top: 50px; }
+
+  /* line 306, ../sass/screen.scss */
+  #block-mainnavigation li.sf-depth-1 a.sf-depth-1 {
+    text-align: left;
+    color: white;
+    padding: 10px 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif; }
+    /* line 312, ../sass/screen.scss */
+    #block-mainnavigation li.sf-depth-1 a.sf-depth-1.is-active {
+      border-bottom: none; }
+    /* line 315, ../sass/screen.scss */
+    #block-mainnavigation li.sf-depth-1 a.sf-depth-1:hover {
+      /*color: #fb334f;*/
+      text-decoration: none;
+      background: white; }
+    /* line 320, ../sass/screen.scss */
+    #block-mainnavigation li.sf-depth-1 a.sf-depth-1.menuparent::after {
+      float: right;
+      font-family: FontAwesome;
+      content: "\f067";
+      color: blue; }
+  /* line 328, ../sass/screen.scss */
+  #block-mainnavigation li.sf-depth-1 ul li {
+    background: #2A2A2A;
+    color: #fff;
+    padding-left: 20px;
+    border: white; }
+    /* line 334, ../sass/screen.scss */
+    #block-mainnavigation li.sf-depth-1 ul li.sf-clone-parent a {
+      color: white;
+      font-size: 20px; }
+  /* line 340, ../sass/screen.scss */
+  #block-mainnavigation li.sf-depth-1 ul a {
+    color: white;
+    background: #2A2A2A;
+    text-align: left; }
+    /* line 344, ../sass/screen.scss */
+    #block-mainnavigation li.sf-depth-1 ul a:hover {
+      text-decoration: none; }
+  /* line 350, ../sass/screen.scss */
+  #block-mainnavigation a.sf-expanded {
+    background-color: #0c1923;
+    text-align: left;
+    text-decoration: none; }
+
+  /* line 356, ../sass/screen.scss */
+  #superfish-main-accordion {
+    text-align: center; }
+    /* line 358, ../sass/screen.scss */
+    #superfish-main-accordion li {
+      max-width: 420px;
+      margin: 0 auto;
+      float: none;
+      border: 1px solid #000; }
+      /* line 363, ../sass/screen.scss */
+      #superfish-main-accordion li a {
+        color: white; }
+      /* line 366, ../sass/screen.scss */
+      #superfish-main-accordion li ul.sf-has-clone-parent {
+        float: none; }
+        /* line 369, ../sass/screen.scss */
+        #superfish-main-accordion li ul.sf-has-clone-parent li.sf-clone-parent a {
+          font-size: 14px;
+          padding-left: 28px; }
+
+  /* line 378, ../sass/screen.scss */
+  .navbar-default .sf-depth-1 {
+    background-color: #0c1923; } }
+@media only screen and (max-width: 480px) {
+  /* line 385, ../sass/screen.scss */
+  #superfish-main-toggle {
+    /*margin: 0 auto;*/
+    width: 100%;
+    /*padding-left: 50px;
+    padding-right: 50px;*/
+    background-color: #0c1923;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  /* line 397, ../sass/screen.scss */
+  .home_banner {
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-family: "Montserrat", serif;
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+
+  /* line 407, ../sass/screen.scss */
+  #block-bannerarea {
+    padding-top: 20px; }
+
+  /* line 410, ../sass/screen.scss */
+  #block-mainnavigation {
+    padding-left: 25px;
+    padding-right: 25px; }
+    /* line 414, ../sass/screen.scss */
+    #block-mainnavigation li.sf-depth-1 a.sf-depth-1 {
+      color: white;
+      padding: 10px 18px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px; }
+      /* line 420, ../sass/screen.scss */
+      #block-mainnavigation li.sf-depth-1 a.sf-depth-1.is-active {
+        border-bottom: none; }
+      /* line 423, ../sass/screen.scss */
+      #block-mainnavigation li.sf-depth-1 a.sf-depth-1:hover {
+        color: #fb334f;
+        text-decoration: none;
+        background: white; }
+    /* line 430, ../sass/screen.scss */
+    #block-mainnavigation li.sf-depth-1 ul li {
+      background: #2A2A2A;
+      color: #fff;
+      padding-left: 20px;
+      border: white; }
+    /* line 436, ../sass/screen.scss */
+    #block-mainnavigation li.sf-depth-1 ul a {
+      color: white;
+      background: #2A2A2A;
+      text-align: left; }
+      /* line 440, ../sass/screen.scss */
+      #block-mainnavigation li.sf-depth-1 ul a:hover {
+        text-decoration: none; }
+    /* line 446, ../sass/screen.scss */
+    #block-mainnavigation a.sf-expanded {
+      background-color: #0c1923;
+      text-align: left;
+      text-decoration: none; }
+
+  /* line 452, ../sass/screen.scss */
+  #superfish-main-accordion {
+    float: none; }
+    /* line 454, ../sass/screen.scss */
+    #superfish-main-accordion li {
+      float: right;
+      border: 1px solid #000; }
+
+  /* line 460, ../sass/screen.scss */
+  .navbar-default .sf-depth-1 {
+    background-color: #0c1923; } }
